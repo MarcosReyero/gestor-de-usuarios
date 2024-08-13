@@ -10,7 +10,7 @@ def clear():
         os.system('cls')
     else:  # Para Unix/Linux/Mac
         os.system('clear')
-wEUBW90´NUT´NUERAÓNTUVQ´9UBT
+
 def input_con_control(mensaje):
     """
     Maneja las entradas de usuario con control de errores.
@@ -240,7 +240,7 @@ def imprimir_menu_principal():
 usuarios_registrados = []
 
 # Usuario predeterminado
-usuarios_registrados.append({"usuario": "teo", "password": hash_password("123")})
+usuarios_registrados.append({"usuario": "teo", "password": hash_password("12345678")})
 
 # Verificar si el usuario ha iniciado sesión
 sesion_iniciada = False
