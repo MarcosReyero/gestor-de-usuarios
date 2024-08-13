@@ -10,7 +10,7 @@ def clear():
         os.system('cls')
     else:  # Para Unix/Linux/Mac
         os.system('clear')
-
+wEUBW90´NUT´NUERAÓNTUVQ´9UBT
 def input_con_control(mensaje):
     """
     Maneja las entradas de usuario con control de errores.
@@ -164,6 +164,7 @@ def registrar_usuario():
         return
 
     password = solicitar_entrada("Contraseña: ", 8, 20)
+
 
     password_hashed = hash_password(password)
     dict_usuario = {"usuario": usuario, "password": password_hashed}
