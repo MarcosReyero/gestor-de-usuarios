@@ -64,7 +64,7 @@ Imprime el menú principal después de que el usuario ha iniciado sesión. Permi
 
 ## Uso
 
-1. **Inicialización**: Ejecuta el script en una terminal para comenzar.
+1. **Inicialización**: Ejecuta main.py en una terminal para comenzar.
 2. **Interacción**: Sigue las instrucciones en pantalla para iniciar sesión, registrarte, o personalizar tu perfil.
 3. **Manejo de Errores**: El programa maneja errores de entrada y proporciona retroalimentación clara en caso de errores o acciones inválidas.
 
